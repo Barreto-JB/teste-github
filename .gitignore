@@ -1,8 +1,0 @@
-private/
-research/original/
-research/data/
-*.sqlite
-*.sqlite-wal
-*.sqlite-shm
-.env
-node_modules/
