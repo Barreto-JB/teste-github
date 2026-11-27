@@ -2,6 +2,10 @@
 
 Entradas documentam resultados reportados nos checkpoints anteriores; não substituem a verificação atual.
 
+## V77 — Eventos guardados e equipa única
+- Favoritos locais na agenda, home e pesquisa; filtro Guardados e opção de apagar na privacidade. Sem conta, sem novos dados externos.
+- Manual v1.3 e coordenação única; protocolo V76 arquivado sem apagar histórico. Testes reproduzíveis adicionados; publicação a verificar após push.
+
 ## V76 — Coordenação de três automações (2026-11-27)
 - Protocolo de investigação, desenvolvimento e auditoria, com handoffs no Git e lock remoto append-only; só auditoria publica candidatos aprovados. Sem alterações funcionais ao portal.
 

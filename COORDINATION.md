@@ -1,3 +1,13 @@
+# Coordenação — equipa única (V77)
+
+Mandato de 27/11/2026: uma tarefa horária, com fases sequenciais de investigação, engenharia, auditoria, testes e publicação. Não criar outras tarefas, não depender de handoffs ou aprovação de outro chat. Rever por papéis, sem alegar agentes paralelos.
+
+Antes de trabalhar: verificar atividade real, base remota e alterações locais; usar clone exclusivo por execução ou exclusão local segura; não tocar em locks ativos. Se outra execução estiver a escrever, não publicar em concorrência. Rever diff, gates, testes e SHA remoto antes de push normal para viseu-pages; verificar versão e smoke público. Não alterar main, nem apagar histórico. O protocolo anterior permanece abaixo apenas para histórico e recuperação de evidências; scripts/pipeline_lock.py e coord/pipeline não são requisitos do ciclo atual.
+
+---
+
+## Arquivo V76 — inativo
+
 # Coordenação das três execuções (V76)
 
 Três automações horárias, escalonadas no horário Europe/Lisbon: investigação :10, desenvolvimento :30, auditoria :50. Os horários são oportunidades de execução, não uma garantia de início/fim. Se houver sobreposição, só quem adquirir o bloqueio remoto trabalha; as restantes saltam o ciclo. Não esperar indefinidamente nem forçar o desbloqueio. Os 10 papéis e o RH freelance do AGENTS.md são preservados.

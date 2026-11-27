@@ -23,7 +23,7 @@ Medir o que realmente foi executado; não inventar percentagens. Se alvo ainda n
 
 ## Matriz de regressão mínima
 - Home, agenda, explorar, mobilidade, poupar, fontes, passatempos, privacidade e pesquisa (rotas existentes).
-- Agenda: carregamento, validade, pesquisa, filtros categoria/data/grátis/local, detalhes, fotografias reais e créditos.
+- Agenda: carregamento, validade, pesquisa, filtros categoria/data/grátis/local, detalhes, fotografias reais e créditos; favoritos, filtro Guardados, persistência e apagamento local.
 - Mobilidade: mapa, tiles, pesquisa, zonas, seleção, paginação, estados sem dados e navegação de saída.
 - Cabaz: adicionar, preços, comparar, descontos/deslocações, remover, persistência e privacidade; importação de combustíveis.
 - Apoio: 3 links, texto PT-PT, #FFDD00, nova aba e rel seguro, mobile sem sobreposição, foco.

@@ -17,7 +17,7 @@ Estado inicial 2026-11-27. Escolher trabalho por impacto, confiança, esforço, 
 | B11 | P1 | Explorar Viseu | POI, serviços e turismo com coordenadas, licenças, filtros e fotos reais | A fazer |
 | B12 | P1 | Acessibilidade/performance | Baseline Lighthouse mobile/desktop, teclado, contraste, WCAG, correções medidas | A fazer |
 | B13 | P2 | PWA | Manifest, instalação e offline seletivo, cache versionado e atualização testada | A fazer |
-| B14 | P2 | Favoritos | Persistência local, remover/exportar quando necessário, privacidade | A fazer |
+| B14 | P2 | Favoritos | Guardar/remover eventos, filtrar guardados, persistência local e privacidade | Implementado V77; validação e deploy no checkpoint |
 | B15 | P2 | Restaurantes/estacionamento | Dados licenciados, localizações, horários/preços verificáveis | A fazer |
 | B16 | P2 | Emprego/comunidade/notificações | Fontes, validade e consentimento opt-in | A fazer |
 | B17 | P2 | Modernização incremental | ADR e prova de necessidade; piloto TypeScript/Astro, regressões aprovadas | A avaliar |

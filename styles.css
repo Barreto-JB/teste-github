@@ -267,3 +267,9 @@ td .remove{background:none;color:var(--ink);border:1px solid var(--line);font-si
 .development-actions button:hover span{color:var(--ink)}
 .development-note{font-size:13px;color:var(--muted);margin:14px 0 0}
 @media(max-width:480px){.development-inner{padding:22px}.development-actions{gap:9px;margin-top:18px}.development-actions>*{flex-basis:100%}.development-notice h2{font-size:39px}}
+/* V77 — event favorites */
+.event-favorite{align-self:flex-start;min-height:44px;margin:6px 0 15px;padding:8px 13px;letter-spacing:.045em;font-size:16px}
+.event-favorite[aria-pressed="true"]{background:var(--yellow);color:var(--ink)}
+.event-favorite:hover{background:var(--yellow);color:var(--ink)}
+#favorite-status:empty,#clear-favorites-status:empty{margin:0}
+#clear-favorites{margin:8px 0}
