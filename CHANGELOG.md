@@ -2,6 +2,11 @@
 
 Entradas documentam resultados reportados nos checkpoints anteriores; não substituem a verificação atual.
 
+## V73 — Redesign editorial (2026-11-27)
+- Identidade Barlow Condensed/Manrope, amarelo, carvão, marfim e verde mineral, composição dividida, moldura fotográfica, categorias numeradas, agenda e ferramentas com nova linguagem visual.
+- Marca independente preservada, imagens e dados existentes intactos. Google Fonts indicado na privacidade; apoio em área reservada.
+- Testes de regressão e comparação visual em 1440, 1024, 768 e 390 px. Publicação a verificar após push.
+
 ## V72 — Manual operacional (2026-11-27)
 - Estrutura de governação, roadmap, backlog, arquitetura, design, fontes, limitações e gates de qualidade versionados. Sem alterações funcionais ao portal nesta versão documental.
 
