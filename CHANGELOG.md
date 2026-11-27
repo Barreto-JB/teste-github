@@ -2,6 +2,10 @@
 
 Entradas documentam resultados reportados nos checkpoints anteriores; não substituem a verificação atual.
 
+## V75 — RH tecnológico e especialistas temporários (2026-11-27)
+- Manual v1.1: décimo papel permanente para identificar lacunas e mobilizar especialistas freelance por missão, com critérios verificáveis, revisão, arquivo e reativação.
+- Novo SPECIALISTS.md: catálogo e modelo de registo; nenhuma missão ativada nesta alteração documental. Sem mudanças no frontend, dados, custos ou permissões.
+
 ## V74 — Aviso de desenvolvimento
 - Aviso modal obrigatório por sessão do separador, com confirmação explícita, apoio voluntário e informação de privacidade. Não altera os dados nem exige contribuição.
 
