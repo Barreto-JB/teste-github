@@ -1,6 +1,5 @@
 {
-  "role": "audit",
-  "status": "running",
-  "token": "8d6c9ba99d634610969a6d7d82ee706e",
-  "updated": "2026-11-27T05:50:47.227612+00:00"
+  "last_role": "audit",
+  "status": "idle",
+  "updated": "2026-11-27T10:53:18.707381+00:00"
 }
