@@ -17,3 +17,18 @@ body{font-size:15px;line-height:1.55}.wrap{max-width:1320px;padding-inline:48px}
 @media(max-width:600px){.event-visual{aspect-ratio:16/8}.event-card .event-top{padding:10px 15px}}
 @media(prefers-reduced-motion:reduce){.event-card{transition:none}}
 .event-no-photo{background:#e8eee6;min-height:84px;display:grid;place-items:center;padding:12px;color:var(--muted);font-size:12px;text-align:center}.event-visual figcaption{max-width:95%;text-align:right}
+
+/* V70: voluntary support, no payment scripts or tracking. */
+.site-scroll{display:contents}
+.support-button{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:11px 17px;border-radius:9px;border:1px solid #d6ba00;background:#FFDD00;color:#1b201d;font-size:14px;line-height:1.35;font-weight:750;text-decoration:none;white-space:nowrap;transition:background .15s,box-shadow .15s}
+.support-button:hover{background:#f0cf00;color:#1b201d;text-decoration:none;box-shadow:0 2px 8px #0002}
+.support-button:focus-visible{outline:3px solid #176a9b;outline-offset:3px;box-shadow:0 0 0 2px #fff}
+.support-section{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:22px 26px;background:#fff;border:1px solid var(--line);border-radius:14px;margin:20px 0 32px}
+.support-section h2{font:400 27px/1.2 var(--serif);letter-spacing:-.03em;margin:0 0 7px}.support-section p:not(.kicker){margin:0;color:var(--muted);max-width:680px;font-size:14px}.support-section .kicker{margin:0 0 7px}
+.footer .footer-support{margin-top:20px;padding-top:18px;border-top:1px solid #ffffff30;align-items:center}.footer-support p{margin:0;max-width:650px}.footer .support-button{color:#1b201d}
+.support-dock{position:fixed;right:20px;bottom:20px;z-index:9}.support-dock .support-button{box-shadow:0 4px 14px #0002;font-size:13px}
+@media(min-width:701px){body{padding-bottom:72px}}
+/* Mobile has a dedicated dock row, rather than a fixed overlay over page content.
+   The scrollable page is confined to the remaining viewport, including safe areas. */
+@media(max-width:700px){html,body{height:100%;overflow:hidden}body{display:flex;flex-direction:column;height:100dvh;min-height:0}.site-scroll{display:block;flex:1 1 0;min-height:0;overflow-y:auto;overflow-x:hidden;scroll-padding-top:115px;overscroll-behavior-y:contain}.support-dock{position:relative;right:auto;bottom:auto;flex:0 0 auto;display:flex;justify-content:flex-end;align-items:center;padding:7px 12px calc(7px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);background:var(--paper)}.support-dock .support-button{box-shadow:none;padding:9px 13px;min-height:44px}.support-section{align-items:flex-start;flex-direction:column;gap:12px;padding:18px}.support-section h2{font-size:24px}.footer .footer-support{gap:12px}.footer .footer-support .support-button{align-self:flex-start;margin:0}}
+@media(prefers-reduced-motion:reduce){.support-button{transition:none}}
