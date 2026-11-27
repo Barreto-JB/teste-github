@@ -2,6 +2,9 @@
 
 Entradas documentam resultados reportados nos checkpoints anteriores; não substituem a verificação atual.
 
+## V76 — Coordenação de três automações (2026-11-27)
+- Protocolo de investigação, desenvolvimento e auditoria, com handoffs no Git e lock remoto append-only; só auditoria publica candidatos aprovados. Sem alterações funcionais ao portal.
+
 ## V75 — RH tecnológico e especialistas temporários (2026-11-27)
 - Manual v1.1: décimo papel permanente para identificar lacunas e mobilizar especialistas freelance por missão, com critérios verificáveis, revisão, arquivo e reativação.
 - Novo SPECIALISTS.md: catálogo e modelo de registo; nenhuma missão ativada nesta alteração documental. Sem mudanças no frontend, dados, custos ou permissões.
