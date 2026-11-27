@@ -1,1 +1,35 @@
-{}
+{
+  "acceptance": [
+    "Confirmar direitos para modelo de apoio voluntario antes de publicar; alternativa com licenca comercial clara se necessario",
+    "Validar datas unicas, temperaturas numericas min<=max, probabilidade 0..100, codigos presentes, UTC e validade dos avisos; distinguir green de aviso ativo",
+    "Preservar ultimo snapshot valido e indicar desatualizacao; fonte e logo conforme termos se autorizados"
+  ],
+  "artifacts": "research/v76-weather/{locations,forecast,types,warnings}.json e docs.html; script v76_weather.py na raiz autorizada do projeto, fora do clone.",
+  "base_sha": "9575c4b83386142626067b59ac61aacd2f0e48c3",
+  "id": "R76-20261127-0505",
+  "license": "Termos IPMA permitem uso pessoal/publico sem finalidade lucrativa ou ofensiva, exigem fonte e logotipo com hiperligacao em paginas web. Solicitam email informativo. Apoio voluntario existente torna enquadramento nao lucrativo incerto; nao publicar sem clarificacao. Nao contactar IPMA automaticamente.",
+  "next": "Desenvolvimento pode preparar contrato/testes sem republicar dados IPMA; priorizar outra funcionalidade autorizada ou alternativa meteorologica com licenca adequada. IMT continua bloqueado, nao repetido.",
+  "priority": "P1 B09",
+  "problem": "Meteorologia oficial: validar contrato e direitos antes de integrar",
+  "reproduction": [
+    "https://api.ipma.pt/open-data/distrits-islands.json",
+    "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1182300.json",
+    "https://api.ipma.pt/open-data/weather-type-classe.json",
+    "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json"
+  ],
+  "results": {
+    "forecast_dates": "2026-11-27 a 2026-12-01",
+    "forecast_days": 5,
+    "http200": 5,
+    "location_id": 1182300,
+    "national_warning_records": 200,
+    "non_green": 0,
+    "source_update_utc": "2026-11-27T04:31:03",
+    "viseu_warning_records": 8,
+    "warning_area": "VIS"
+  },
+  "role": "research",
+  "source": "https://api.ipma.pt/",
+  "status": "validated_access_rights_pending",
+  "updated": "2026-11-27T05:06:19.171701+00:00"
+}
