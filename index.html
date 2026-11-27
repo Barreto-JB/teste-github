@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=73">
+  <link rel="stylesheet" href="styles.css?v=74">
 </head>
 <body>
   <div class="site-scroll" id="site-scroll">
@@ -51,8 +51,25 @@
     </footer>
   </div>
   <aside class="support-dock" aria-label="Apoiar o projeto"><a class="support-button" href="https://buymeacoffee.com/barretomendes" target="_blank" rel="noopener noreferrer">☕ Paga-me um café<span class="sr-only"> (abre numa nova aba)</span></a></aside>
+  <dialog id="development-notice" class="development-notice" aria-labelledby="development-title" aria-describedby="development-description">
+    <div class="development-inner">
+      <p class="kicker development-kicker"><span aria-hidden="true"></span> Projeto independente · Em desenvolvimento</p>
+      <h2 id="development-title">Viseu, estamos a construir algo para ti.</h2>
+      <div id="development-description">
+        <p>O Viseu em Agenda ainda está em desenvolvimento e não se encontra plenamente operacional. Algumas funcionalidades e informações podem estar incompletas ou sofrer alterações.</p>
+        <p>Estou a trabalhar todos os dias para, em breve, disponibilizar a todos um portal útil, completo e dedicado à nossa cidade.</p>
+        <p>Se quiseres apoiar este projeto independente, podes pagar-me um café. Cada contributo ajuda a manter o projeto em evolução. Obrigado pela tua visita!</p>
+      </div>
+      <div class="development-actions">
+        <a class="support-button" href="https://buymeacoffee.com/barretomendes" target="_blank" rel="noopener noreferrer">☕ Paga-me um café<span class="sr-only"> (abre numa nova aba)</span></a>
+        <button id="development-ack" type="button" autofocus>Li e compreendi <span aria-hidden="true">↗</span></button>
+      </div>
+      <p class="development-note">O apoio é totalmente opcional. Podes continuar sem contribuir.</p>
+    </div>
+  </dialog>
+  <script defer src="development-notice.js?v=74"></script>
   <script defer src="vendor/leaflet/leaflet.js"></script>
-  <script defer src="app.js?v=73"></script>
+  <script defer src="app.js?v=74"></script>
   <script defer src="event-images.js?v=69"></script>
   <script defer src="portal67.js?v=69"></script>
 </body>

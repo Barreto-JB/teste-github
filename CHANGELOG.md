@@ -2,6 +2,9 @@
 
 Entradas documentam resultados reportados nos checkpoints anteriores; não substituem a verificação atual.
 
+## V74 — Aviso de desenvolvimento
+- Aviso modal obrigatório por sessão do separador, com confirmação explícita, apoio voluntário e informação de privacidade. Não altera os dados nem exige contribuição.
+
 ## V73 — Redesign editorial (2026-11-27)
 - Identidade Barlow Condensed/Manrope, amarelo, carvão, marfim e verde mineral, composição dividida, moldura fotográfica, categorias numeradas, agenda e ferramentas com nova linguagem visual.
 - Marca independente preservada, imagens e dados existentes intactos. Google Fonts indicado na privacidade; apoio em área reservada.

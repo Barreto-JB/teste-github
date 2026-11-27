@@ -253,3 +253,17 @@ td .remove{background:none;color:var(--ink);border:1px solid var(--line);font-si
   .data-controls label:has(#event-query),.data-controls label:has(#event-when){flex:0 0 100%}.feature{grid-column:1/-1;border-left:0;padding:22px var(--gutter)}.feature h3{margin-top:18px}.feature p{max-width:275px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+/* V74 — temporary development notice, acknowledgement required. */
+.development-notice{width:min(590px,calc(100% - 32px));max-height:calc(100dvh - 32px);max-width:100%;margin:auto;padding:0;border:1px solid var(--ink);border-top:8px solid var(--yellow);background:var(--paper);color:var(--ink);overflow:auto;overscroll-behavior:contain}
+.development-notice::backdrop{background:rgba(28,30,28,.76)}
+.development-inner{padding:clamp(22px,4vw,36px)}
+.development-kicker{display:flex;align-items:center;gap:10px;color:var(--ink);font-size:13px}
+.development-kicker span{width:24px;height:5px;flex-shrink:0;background:var(--yellow)}
+.development-notice h2{font:800 clamp(36px,5.5vw,54px)/.95 var(--display);letter-spacing:-.02em;margin:16px 0 20px}
+.development-notice p:not(.kicker):not(.development-note){font:400 16px/1.6 var(--body);margin:0 0 14px}
+.development-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:stretch;margin-top:24px}
+.development-actions>*{flex:1 1 190px}
+.development-actions button span{color:var(--yellow)}
+.development-actions button:hover span{color:var(--ink)}
+.development-note{font-size:13px;color:var(--muted);margin:14px 0 0}
+@media(max-width:480px){.development-inner{padding:22px}.development-actions{gap:9px;margin-top:18px}.development-actions>*{flex-basis:100%}.development-notice h2{font-size:39px}}
