@@ -1,0 +1,101 @@
+{
+  "viriato": {
+    "file": "assets/events/viriato.webp",
+    "author": "Concierge.2C",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Viseu_-_Teatro_Viriato_(1).jpg",
+    "title": "Viseu - Teatro Viriato (1).jpg",
+    "width": 1100,
+    "height": 736,
+    "kind": "venue"
+  },
+  "teatro": {
+    "file": "assets/events/teatro.webp",
+    "author": "Kurt Kaiser",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Theater_Show.jpg",
+    "title": "Theater Show.jpg",
+    "width": 1100,
+    "height": 825,
+    "kind": "illustration"
+  },
+  "cinema": {
+    "file": "assets/events/cinema.webp",
+    "author": "Jorge Simonet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sala_de_cine.jpg",
+    "title": "Sala de cine.jpg",
+    "width": 1100,
+    "height": 619,
+    "kind": "illustration"
+  },
+  "musica": {
+    "file": "assets/events/musica.svg",
+    "author": "Viseu em Agenda",
+    "license": "Original do portal",
+    "licenseUrl": "",
+    "source": "",
+    "title": "Ilustração editorial",
+    "width": 900,
+    "height": 540,
+    "kind": "illustration"
+  },
+  "danca": {
+    "file": "assets/events/danca.svg",
+    "author": "Viseu em Agenda",
+    "license": "Original do portal",
+    "licenseUrl": "",
+    "source": "",
+    "title": "Ilustração editorial",
+    "width": 900,
+    "height": 540,
+    "kind": "illustration"
+  },
+  "livros": {
+    "file": "assets/events/livros.svg",
+    "author": "Viseu em Agenda",
+    "license": "Original do portal",
+    "licenseUrl": "",
+    "source": "",
+    "title": "Ilustração editorial",
+    "width": 900,
+    "height": 540,
+    "kind": "illustration"
+  },
+  "exposicoes": {
+    "file": "assets/events/exposicoes.svg",
+    "author": "Viseu em Agenda",
+    "license": "Original do portal",
+    "licenseUrl": "",
+    "source": "",
+    "title": "Ilustração editorial",
+    "width": 900,
+    "height": 540,
+    "kind": "illustration"
+  },
+  "oficinas": {
+    "file": "assets/events/oficinas.svg",
+    "author": "Viseu em Agenda",
+    "license": "Original do portal",
+    "licenseUrl": "",
+    "source": "",
+    "title": "Ilustração editorial",
+    "width": 900,
+    "height": 540,
+    "kind": "illustration"
+  },
+  "geral": {
+    "file": "assets/events/geral.svg",
+    "author": "Viseu em Agenda",
+    "license": "Original do portal",
+    "licenseUrl": "",
+    "source": "",
+    "title": "Ilustração editorial",
+    "width": 900,
+    "height": 540,
+    "kind": "illustration"
+  }
+}
